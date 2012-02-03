@@ -1,0 +1,11 @@
+Displays a Flattr high score list from the specified tags/categories etc.
+
+It wraps around the Flattr Search API:
+
+http://developers.flattr.net/api/resources/things/
+
+Example of a high score of the most flattred WikiLeaks videos:
+
+http://localhost:8000/?query=wikileaks&category=video&sort=flattrs/
+
+Now go and create your own high score! :)
